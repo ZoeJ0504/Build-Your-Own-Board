@@ -79,7 +79,7 @@ const modal = document.getElementById("exampleModal")
 const dropdownOne = document.getElementById("first-dropdown")
 dropdownOne.addEventListener('change', (e) => {
     const hope = e.target.options[e.target.selectedIndex].id
-    fetch (`http://jservice.io/api/category?id=${hope}`)
+    fetch (`https://jservice.io/api/category?id=${hope}`)
     .then(res => res.json())
     .then(data => getValuesA(data)
     )
@@ -145,7 +145,7 @@ thousandA.addEventListener("click", (e) => {
 const dropdownTwo = document.getElementById("second-dropdown")
 dropdownTwo .addEventListener('change', (e) => {
     const hope = e.target.options[e.target.selectedIndex].id
-    fetch (`http://jservice.io/api/category?id=${hope}`)
+    fetch (`https://jservice.io/api/category?id=${hope}`)
     .then(res => res.json())
     .then(data => getValuesB(data)
     )
@@ -206,7 +206,7 @@ thousandB.addEventListener("click", (e) => {
 const dropdownThree = document.getElementById("third-dropdown")
 dropdownThree .addEventListener('change', (e) => {
     const hope = e.target.options[e.target.selectedIndex].id
-    fetch (`http://jservice.io/api/category?id=${hope}`)
+    fetch (`https://jservice.io/api/category?id=${hope}`)
     .then(res => res.json())
     .then(data => getValuesC(data)
     )
@@ -267,7 +267,7 @@ thousandC.addEventListener("click", (e) => {
 const dropdownFour = document.getElementById("fourth-dropdown")
 dropdownFour.addEventListener('change', (e) => {
     const hope = e.target.options[e.target.selectedIndex].id
-    fetch (`http://jservice.io/api/category?id=${hope}`)
+    fetch (`https://jservice.io/api/category?id=${hope}`)
     .then(res => res.json())
     .then(data => getValuesD(data)
     )
@@ -327,7 +327,7 @@ thousandD.addEventListener("click", (e) => {
 const dropdownFive = document.getElementById("fifth-dropdown")
 dropdownFive.addEventListener('change', (e) => {
     const hope = e.target.options[e.target.selectedIndex].id
-    fetch (`http://jservice.io/api/category?id=${hope}`)
+    fetch (`https://jservice.io/api/category?id=${hope}`)
     .then(res => res.json())
     .then(data => getValuesE(data)
     )
@@ -387,7 +387,7 @@ thousandE.addEventListener("click", (e) => {
 const dropdownSix = document.getElementById("sixth-dropdown")
 dropdownSix.addEventListener('change', (e) => {
     const hope = e.target.options[e.target.selectedIndex].id
-    fetch (`http://jservice.io/api/category?id=${hope}`)
+    fetch (`https://jservice.io/api/category?id=${hope}`)
     .then(res => res.json())
     .then(data => getValuesF(data)
     )
