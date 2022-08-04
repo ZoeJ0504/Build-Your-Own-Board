@@ -1,0 +1,123 @@
+
+body{
+background-color: #18168F;
+}
+#header{
+    color:white;
+}
+
+.btn {
+    color:white;
+    font-size: 20px;
+    font-family: 'Sigmar One', cursive;
+    border-color: white;
+    border-radius: 2px;
+    padding:30px;
+    border-width: 10px;
+
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.btn:hover{
+    color: gold;
+}
+#build-your-board{
+    font-family: 'Monoton', cursive;
+    text-align: center;
+    padding: 10px;
+    font-size: 60px;
+}
+.container-one{
+    display: flex;
+    justify-content: space-between;
+    color:gold;
+}
+#userScore{
+    font-family: 'Monoton', cursive;
+    text-align: center;
+    padding: 10px;
+    font-size: 40px;
+}
+
+p{
+    font-family: 'Monoton', cursive;
+    padding: 10px;
+    font-size: 40px;
+    text-align: left;
+}
+
+select{
+    border-color: white;
+    border-width: 5px;
+    background-color: #18168F;
+    color:white;
+    font-size:20px;
+    font-family: 'Sigmar One', cursive;
+    margin: auto;
+    text-align: center;
+
+}
+select:hover{
+    border-color:gold;
+    color:gold;
+}
+th,td{
+    border-bottom:none;
+padding: 0;
+}
+.table{
+    width:75%;
+    margin: auto;
+}
+
+.modal-header{
+    background-color: #18168F;
+    display:flex;
+    justify-content: center;
+    border-bottom:none;
+}
+.modal-body{
+    background-color: #18168F;
+    text-align: center;
+    border-bottom: none;
+    font-size: 30px;
+}
+.modal-footer{
+    background-color: #18168F;
+    border-top: none;
+}
+#test{
+    font-family: 'Economica', sans-serif;;
+    font-size:40px;
+    color:white;
+}
+#answer-validate{
+    font-family: 'Economica', sans-serif;
+    font-size:40px;
+    color:white;
+} 
+#staticBackdropLabel{
+    font-size: 50px;
+    color:gold;
+    font-family: 'Monoton', cursive;
+}
+#check-answer{
+    background-color: #18168F;
+    border-color:white;
+    color:white;
+}
+#check-answer:hover{
+    border-color: white;
+    color:gold;
+}
+#close{
+    background-color: #18168F;
+    border-color:white;
+    color:white;
+}
+#close:hover{
+    border-color: white;
+    color:gold;
+}

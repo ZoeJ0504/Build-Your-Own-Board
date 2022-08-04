@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Economica:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
+    <link href=“http://fonts.cdnfonts.com/css/itc-korinna-std” rel=“stylesheet”>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <link rel = 'stylesheet' href="index.css">
+    <link href=“style.css” rel=“stylesheet”>
+    <script src="index.js"></script>
+    <title>Build Your Own Board</title>
+</head>
+<body>
+    <div id="header">
+        <h1 id="build-your-board">BUILD YOUR OWN BOARD</h1>
+    </div>
+    <div class="container-one">
+        <p id="choice">Choose Your Categories: </p>
+        <div id="userScore">Score: <span id = "span">0</span></div>
+     
+    </div>
+    <table class="table"  id="table">
+        <thead>
+          <tr>
+            <th scope="col">    
+                <select name="first-dropdown" id="first-dropdown">
+                <option>Pick One</option>
+                <option id="203" value="double-talk">Double Talk</option>
+                <option id="430" value="hodgepodge">Hodgepodge</option>
+                <option id="112" value="landmarks">Landmarks</option>
+              </select>
+            </th>
+            <th scope="col">
+                <select name="second-dropdown" id="second-dropdown">
+                    <option>Pick One</option>
+                    <option id="283" value="literature">Literature</option>
+                    <option id="783" value="mythology">Mythology</option>
+                    <option id="115" value="science">Science</option>
+                  </select>
+            </th>
+            <th scope="col">
+                <select name="third-dropdown" id="third-dropdown">
+                    <option>Pick One</option>
+                    <option id="74" value="animals">Animals</option>
+                    <option id="1847" value="in-the-dictionary">In The Dictionary</option>
+                    <option id="31" value="toys-and-games">Toys & Games</option>
+                  </select>
+            </th>
+            <th scope="col">
+                <select name="fourth-dropdown" id="fourth-dropdown">
+                    <option>Pick One</option>
+                    <option id="268" value="stupid-answers">Stupid Answers</option>
+                    <option id="439" value="letter-perfect">Letter Perfect</option>
+                    <option id="550" value="quote">Quotes</option>
+                </select>
+            </th>
+            <th>
+                <select name="fifth-dropdown" id="fifth-dropdown">
+                    <option>Pick One</option>
+                    <option id="56" value="television">Television</option>
+                    <option id="48" value="sports">Sports</option>
+                    <option id="680" value="anagrams">Anagrams</option>
+                  </select>
+            </th>
+            <th>
+                <select name="sixth-dropdown" id="sixth-dropdown">
+                    <option>Pick One</option>
+                    <option id ="84" value="food">Food</option>
+                    <option id="2313" value="around-the-world">Around The World</option>
+                    <option id="1335" value="guinness-records">Guinness Records</option>
+                  </select>
+            </th>
+          </tr>
+        </thead>
+        <tbody id="table-body">
+          <tr>
+            <td class="two">
+                <div class="container">
+                <button  id="category-a-two" type="button" class="btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                200
+              </button></td>
+            </div>
+            <td class="two" >
+                <div class="container">
+                <button id="category-b-two" type="button" class="btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                    200
+                </button> 
+            </div>
+            </td>
+            <td class="two" >
+                <div class="container">
+                <button id="category-c-two" type="button" class="btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                    200
+                </button> 
+            </div>
+            </td>           
+            <td class="two">
+                <div class="container">
+                <button id="category-d-two"  type="button" class="btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                    200
+                </button> 
+            </div>
+            </td>
+            <td class="two">
+                <div class="container">
+                <button id="category-e-two" type="button" class="btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                    200
+                </button> 
+            </div>
+            </td>
+            <td class="two">
+                <div class="container">
+                <button id="category-f-two" type="button" class="btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                    200
+                </button> 
+            </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="four">
+                <div class="container">
+                    <button id="category-a-four" type="button" class="btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                    400
+                </button> 
+            </div>
+            </td>
+            <td class="four">
+                <div class="container">
+                    <button  id="category-b-four" type="button" class="btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                    400
+                </button> 
+            </div>
+            </td>
+            <td  class="four">
+                <div class="container">
+                                <button id="category-c-four" type="button" class="btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                    400
+                </button> 
+            </div>
+            </td>
+            <td class="four">
+                <div class="container">
+                                <button id="category-d-four" type="button" class="btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                    400
+                </button> 
+            </div>
+            </td>
+            <td class="four">
+                <div class="container">
+                                <button id="category-e-four" type="button" class="btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                    400
+                </button> 
+            </div>
+            </td>
+            <td class="four" >
+                <div class="container">
+                                <button id="category-f-four" type="button" class="btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                    400
+                </button> 
+            </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="six">
+                <div class="container">
+                                <button id="category-a-six" type="button" class="btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                    600
+                </button> 
+            </div>
+            </td>
+            <td class="six" >
+                <div class="container">
+                                <button id="category-b-six" type="button" class="btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                    600
+                </button> 
+            </div>
+            </td>
+            <td class="six" >
+                <div class="container">
+                                <button id="category-c-six" type="button" class="btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                    600
+                </button> 
+            </div>
+            </td>
+            <td class="six" >
+                <div class="container">
+                                <button id="category-d-six" type="button" class="btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                    600
+                </button> 
+            </div>
+            </td>
+            <td class="six" >
+                <div class="container">
+                                <button id="category-e-six" type="button" class="btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                    600
+                </button> 
+            </div>
+            </td>
+            <td class="six" >
+                <div class="container">
+                                <button id="category-f-six" type="button" class="btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                    600
+                </button> 
+            </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="eight">
+                <div class="container">
+                                <button  id="category-a-eight" type="button" class="btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                    800
+                </button> 
+            </div>
+            </td>
+            <td class="eight" >
+                <div class="container">
+                                <button id="category-b-eight" type="button" class="btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                    800
+                </button> 
+            </div>
+            </td>
+            <td class="eight" >
+                <div class="container">
+                                <button id="category-c-eight" type="button" class="btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                    800
+                </button> 
+            </div>
+            </td>
+            <td class="eight" >
+                <div class="container">
+                                <button id="category-d-eight" type="button" class="btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                    800
+                </button> 
+            </div>
+            </td>
+            <td class="eight" >
+                <div class="container">
+                                <button id="category-e-eight" type="button" class="btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                    800
+                </button> 
+            </div>
+            </td>
+            <td class="eight">
+                <div class="container">
+                                <button id="category-f-eight" type="button" class="btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                    800
+                </button> 
+            </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="thousand" >
+                <div class="container">
+                                <button id="category-a-thousand" type="button" class="btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                    1000
+                </button> 
+            </div>
+            </td>
+            <td class="thousand" >
+                <div class="container">
+                                <button id="category-b-thousand" type="button" class="btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                    1000
+                </button> 
+            </div>
+            </td>
+            <td class="thousand" >
+                <div class="container">
+                                <button id="category-c-thousand" type="button" class="btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                    1000
+                </button> 
+            </div>
+            </td>
+            <td class="thousand" >
+                <div class="container">
+                                <button id="category-d-thousand" type="button" class="btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                    1000
+                </button> 
+            </div>
+            </td>
+            <td class="thousand" >
+                <div class="container">
+                                <button id="category-e-thousand" type="button" class="btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                    1000
+                </button> 
+            </div>
+            </td>
+            <td class="thousand" >
+                <div class="container">
+                                <button id="category-f-thousand" type="button" class="btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                    1000
+                </button> 
+            </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+  <!-- Modal -->
+  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-fullscreen">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+        </div>
+        <div class="modal-body">
+            <p id="test"></p>
+            <input type="text" id="user-answer" placeholder="Answer Here">
+            <p id="answer-validate"></p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" id="close">Close</button>
+          <button type="button" class="btn btn-primary" id="check-answer">Check Answer</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
