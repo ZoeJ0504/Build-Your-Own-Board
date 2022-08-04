@@ -94,48 +94,48 @@ function getValuesA (data){
 
     twoA.addEventListener("click", (e) => {
         arrayRes = data.clues.filter(item => item.value = 200)
-        const twoA = document.getElementById("test")
+        let  test = document.getElementById("test")
         random = Math.floor(Math.random() * arrayRes.length)
         console.log(random, arrayRes[random])
-        twoA.textContent= arrayRes[random].question
+        test.textContent= arrayRes[random].question
         document.getElementById("staticBackdropLabel").textContent= 200
-        twoA.style.display = 'none'
+        test.style.display = 'none'
     })
    
   fourA.addEventListener("click", (e) => {
      arrayRes = data.clues.filter(item => item.value = 400)
-    const twoA = document.getElementById("test")
+    let test = document.getElementById("test")
     random = Math.floor(Math.random() * arrayRes.length)
     console.log(random, arrayRes[random])
-    twoA.textContent= arrayRes[random].question
+    test.textContent= arrayRes[random].question
     document.getElementById("staticBackdropLabel").textContent= 400
     fourA.style.display = 'none'
 })
 
 sixA.addEventListener("click", (e) => {
     arrayRes = data.clues.filter(item => item.value = 600)
-  const twoA = document.getElementById("test")
+ let test = document.getElementById("test")
     random = Math.floor(Math.random() * arrayRes.length)
   console.log(random, arrayRes[random])
-  twoA.textContent= arrayRes[random].question
+  test.textContent= arrayRes[random].question
   document.getElementById("staticBackdropLabel").textContent= 600
   sixA.style.display = 'none'
 })
 eightA.addEventListener("click", (e) => {
      arrayRes = data.clues.filter(item => item.value = 800)
-  const twoA = document.getElementById("test")
+  let test = document.getElementById("test")
     random = Math.floor(Math.random() * arrayRes.length)
   console.log(random, arrayRes[random])
-  twoA.textContent= arrayRes[random].question
+  test.textContent= arrayRes[random].question
   document.getElementById("staticBackdropLabel").textContent= 800
   eightA.style.display = 'none'
 })
 thousandA.addEventListener("click", (e) => {
     arrayRes = data.clues.filter(item => item.value = 1000)
-  const twoA = document.getElementById("test")
+    let test = document.getElementById("test")
     random = Math.floor(Math.random() * arrayRes.length)
   console.log(random, arrayRes[random])
-  twoA.textContent= arrayRes[random].question
+  test.textContent= arrayRes[random].question
   document.getElementById("staticBackdropLabel").textContent= 1000
   thousandA.style.display = 'none'
 })
@@ -158,46 +158,46 @@ thousandB.style.display = 'block'
 function getValuesB (data){
     twoB.addEventListener("click", (e) => {
         arrayRes = data.clues.filter(item => item.value = 200)
-        const twoA = document.getElementById("test")
+        const test = document.getElementById("test")
         random = Math.floor(Math.random() * arrayRes.length)
         console.log(random, arrayRes[random])
-        twoA.textContent= arrayRes[random].question
+        test.textContent= arrayRes[random].question
         document.getElementById("staticBackdropLabel").textContent= 200
         twoB.style.display = 'none'
     })
   fourB.addEventListener("click", (e) => {
     arrayRes = data.clues.filter(item => item.value = 400)
-    const twoA = document.getElementById("test")
+    let test = document.getElementById("test")
     random = Math.floor(Math.random() * arrayRes.length)
     console.log(random, arrayRes[random])
-    twoA.textContent= arrayRes[random].question
+    test.textContent= arrayRes[random].question
     document.getElementById("staticBackdropLabel").textContent= 400
     fourB.style.display = 'none'
 })
 sixB.addEventListener("click", (e) => {
   arrayRes = data.clues.filter(item => item.value = 600)
-  const twoA = document.getElementById("test")
+  let test = document.getElementById("test")
   random = Math.floor(Math.random() * arrayRes.length)
   console.log(random, arrayRes[random])
-  twoA.textContent= arrayRes[random].question
+  test.textContent= arrayRes[random].question
   document.getElementById("staticBackdropLabel").textContent= 600
   sixB.style.display = 'none'
 })
 eightB.addEventListener("click", (e) => {
     arrayRes = data.clues.filter(item => item.value = 800)
-    const twoA = document.getElementById("test")
+    let test = document.getElementById("test")
     random = Math.floor(Math.random() * arrayRes.length)
     console.log(random, arrayRes[random])
-    twoA.textContent= arrayRes[random].question
+    TextMetrics.textContent= arrayRes[random].question
     document.getElementById("staticBackdropLabel").textContent= 800
     eightB.style.display = 'none'
   })
 thousandB.addEventListener("click", (e) => {
   arrayRes = data.clues.filter(item => item.value = 1000)
-  const twoA = document.getElementById("test")
+  let test = document.getElementById("test")
   random = Math.floor(Math.random() * arrayRes.length)
   console.log(random, arrayRes[random])
-  twoA.textContent= arrayRes[random].question
+  test.textContent= arrayRes[random].question
   document.getElementById("staticBackdropLabel").textContent= 1000
   thousandB.style.display = 'none'
 })
@@ -219,46 +219,46 @@ thousandC.style.display = 'block'
 function getValuesC (data){
     twoC.addEventListener("click", (e) => {
         arrayRes = data.clues.filter(item => item.value = 200)
-        const twoA = document.getElementById("test")
+        let test = document.getElementById("test")
         random = Math.floor(Math.random() * arrayRes.length)
         console.log(random, arrayRes[random])
-        twoA.textContent= arrayRes[random].question
+        test.textContent= arrayRes[random].question
         document.getElementById("staticBackdropLabel").textContent= 200
         twoC.style.display = 'none'
     })
   fourC.addEventListener("click", (e) => {
     arrayRes = data.clues.filter(item => item.value = 400)
-    const twoA = document.getElementById("test")
+    let test = document.getElementById("test")
      random = Math.floor(Math.random() * arrayRes.length)
     console.log(random, arrayRes[random])
-    twoA.textContent= arrayRes[random].question
+    test.textContent= arrayRes[random].question
     document.getElementById("staticBackdropLabel").textContent= 400
     fourC.style.display = 'none'
 })
 sixC.addEventListener("click", (e) => {
    arrayRes = data.clues.filter(item => item.value = 600)
-  const twoA = document.getElementById("test")
+  let test = document.getElementById("test")
   random = Math.floor(Math.random() * arrayRes.length)
   console.log(random, arrayRes[random])
-  twoA.textContent= arrayRes[random].question
+  test.textContent= arrayRes[random].question
   document.getElementById("staticBackdropLabel").textContent= 600
   sixC.style.display = 'none'
 })
 eightC.addEventListener("click", (e) => {
   arrayRes = data.clues.filter(item => item.value = 800)
-  const twoA = document.getElementById("test")
+  let test = document.getElementById("test")
   random = Math.floor(Math.random() * arrayRes.length)
   console.log(random, arrayRes[random])
-  twoA.textContent= arrayRes[random].question
+  test.textContent= arrayRes[random].question
   document.getElementById("staticBackdropLabel").textContent= 800
   eightC.style.display = 'none'
 })
 thousandC.addEventListener("click", (e) => {
   arrayRes = data.clues.filter(item => item.value = 1000)
-  const twoA = document.getElementById("test")
+  let test = document.getElementById("test")
   random = Math.floor(Math.random() * arrayRes.length)
   console.log(random, arrayRes[random])
-  twoA.textContent= arrayRes[random].question
+  test.textContent= arrayRes[random].question
   document.getElementById("staticBackdropLabel").textContent= 1000
   thousandC.style.display = 'none'
 })
@@ -280,46 +280,46 @@ thousandD.style.display = 'block'
 function getValuesD (data){
     twoD.addEventListener("click", (e) => {
         arrayRes = data.clues.filter(item => item.value = 200)
-        const twoA = document.getElementById("test")
+        let test = document.getElementById("test")
         random = Math.floor(Math.random() * arrayRes.length)
         console.log(random, arrayRes[random])
-        twoA.textContent= arrayRes[random].question
+         test.textContent= arrayRes[random].question
         document.getElementById("staticBackdropLabel").textContent= 200
         twoD.style.display = 'none'
     })
   fourD.addEventListener("click", (e) => {
     arrayRes = data.clues.filter(item => item.value = 400)
-    const twoA = document.getElementById("test")
+    let  test = document.getElementById("test")
     random = Math.floor(Math.random() * arrayRes.length)
     console.log(random, arrayRes[random])
-    twoA.textContent= arrayRes[random].question
+    test.textContent= arrayRes[random].question
     document.getElementById("staticBackdropLabel").textContent= 400
     fourD.style.display = 'none'
 })
 sixD.addEventListener("click", (e) => {
     arrayRes = data.clues.filter(item => item.value = 600)
-    const twoA = document.getElementById("test")
+    let test = document.getElementById("test")
     random = Math.floor(Math.random() * arrayRes.length)
     console.log(random, arrayRes[random])
-    twoA.textContent= arrayRes[random].question
+     test.textContent= arrayRes[random].question
     document.getElementById("staticBackdropLabel").textContent= 600
     sixD.style.display = 'none'
 })
 eightD.addEventListener("click", (e) => {
   arrayRes = data.clues.filter(item => item.value = 800)
-  const twoA = document.getElementById("test")
+  let  test = document.getElementById("test")
   random = Math.floor(Math.random() * arrayRes.length)
   console.log(random, arrayRes[random])
-  twoA.textContent= arrayRes[random].question
+  test.textContent= arrayRes[random].question
   document.getElementById("staticBackdropLabel").textContent= 800
   eightD.style.display = 'none'
 })
 thousandD.addEventListener("click", (e) => {
   arrayRes = data.clues.filter(item => item.value = 1000)
-  const twoA = document.getElementById("test")
+  let test = document.getElementById("test")
   random = Math.floor(Math.random() * arrayRes.length)
   console.log(random, arrayRes[random])
-  twoA.textContent= arrayRes[random].question
+  test.textContent= arrayRes[random].question
   document.getElementById("staticBackdropLabel").textContent= 1000
   thousandD.style.display = 'none'
 })
@@ -340,46 +340,46 @@ thousandE.style.display = 'block'
 function getValuesE (data){
     twoE.addEventListener("click", (e) => {
         arrayRes = data.clues.filter(item => item.value = 200)
-        const twoA = document.getElementById("test")
+        let test = document.getElementById("test")
         random = Math.floor(Math.random() * arrayRes.length)
         console.log(random, arrayRes[random])
-        twoA.textContent= arrayRes[random].question
+        test.textContent= arrayRes[random].question
         document.getElementById("staticBackdropLabel").textContent= 200
         twoE.style.display = 'none'
     })
   fourE.addEventListener("click", (e) => {
     arrayRes = data.clues.filter(item => item.value = 400)
-    const twoA = document.getElementById("test")
+    let test = document.getElementById("test")
     random = Math.floor(Math.random() * arrayRes.length)
     console.log(random, arrayRes[random])
-    twoA.textContent= arrayRes[random].question
+    test.textContent= arrayRes[random].question
     document.getElementById("staticBackdropLabel").textContent= 400
     fourE.style.display = 'none'
 })
 sixE.addEventListener("click", (e) => {
   arrayRes = data.clues.filter(item => item.value = 600)
-  const twoA = document.getElementById("test")
+  let test = document.getElementById("test")
   random = Math.floor(Math.random() * arrayRes.length)
   console.log(random, arrayRes[random])
-  twoA.textContent= arrayRes[random].question
+  test.textContent= arrayRes[random].question
   document.getElementById("staticBackdropLabel").textContent= 600
   sixE.style.display = 'none'
 })
 eightE.addEventListener("click", (e) => {
   arrayRes = data.clues.filter(item => item.value = 800)
-  const twoA = document.getElementById("test")
+  let test = document.getElementById("test")
   random = Math.floor(Math.random() * arrayRes.length)
   console.log(random, arrayRes[random])
-  twoA.textContent= arrayRes[random].question
+  test.textContent= arrayRes[random].question
   document.getElementById("staticBackdropLabel").textContent= 800
   eightE.style.display = 'none'
 })
 thousandE.addEventListener("click", (e) => {
   arrayRes = data.clues.filter(item => item.value = 1000)
-  const twoA = document.getElementById("test")
+  let test = document.getElementById("test")
   random = Math.floor(Math.random() * arrayRes.length)
   console.log(random, arrayRes[random])
-  twoA.textContent= arrayRes[random].question
+  test.textContent= arrayRes[random].question
   document.getElementById("staticBackdropLabel").textContent= 1000
   thousandE.style.display = 'none'
 })
@@ -399,47 +399,47 @@ dropdownSix.addEventListener('change', (e) => {
 })
 function getValuesF (data){
     twoF.addEventListener("click", (e) => {
-        const arrayRes = data.clues.filter(item => item.value = 200)
-        const twoA = document.getElementById("test")
-        const random = Math.floor(Math.random() * arrayRes.length)
+        arrayRes = data.clues.filter(item => item.value = 200)
+       let test = document.getElementById("test")
+       random = Math.floor(Math.random() * arrayRes.length)
         console.log(random, arrayRes[random])
-        twoA.textContent= arrayRes[random].question
+        test.textContent= arrayRes[random].question
         document.getElementById("staticBackdropLabel").textContent= 200
         twoF.style.display = 'none'
     })
   fourF.addEventListener("click", (e) => {
-    const arrayRes = data.clues.filter(item => item.value = 400)
-    const twoA = document.getElementById("test")
-    const random = Math.floor(Math.random() * arrayRes.length)
+    arrayRes = data.clues.filter(item => item.value = 400)
+   let test = document.getElementById("test")
+   random = Math.floor(Math.random() * arrayRes.length)
     console.log(random, arrayRes[random])
-    twoA.textContent= arrayRes[random].question
+    test.textContent= arrayRes[random].question
     document.getElementById("staticBackdropLabel").textContent= 400
     fourF.style.display = 'none'
 })
 sixF.addEventListener("click", (e) => {
-  const arrayRes = data.clues.filter(item => item.value = 600)
-  const twoA = document.getElementById("test")
-  const random = Math.floor(Math.random() * arrayRes.length)
+  arrayRes = data.clues.filter(item => item.value = 600)
+  let test = document.getElementById("test")
+  random = Math.floor(Math.random() * arrayRes.length)
   console.log(random, arrayRes[random])
-  twoA.textContent= arrayRes[random].question
+  test.textContent= arrayRes[random].question
   document.getElementById("staticBackdropLabel").textContent= 600
   sixF.style.display = 'none'
 })
 eightF.addEventListener("click", (e) => {
-  const arrayRes = data.clues.filter(item => item.value = 800)
-  const twoA = document.getElementById("test")
-  const random = Math.floor(Math.random() * arrayRes.length)
+ arrayRes = data.clues.filter(item => item.value = 800)
+  let test = document.getElementById("test")
+  random = Math.floor(Math.random() * arrayRes.length)
   console.log(random, arrayRes[random])
-  twoA.textContent= arrayRes[random].question
+  test.textContent= arrayRes[random].question
   document.getElementById("staticBackdropLabel").textContent= 800
   eightF.style.display = 'none'
 })
 thousandF.addEventListener("click", (e) => {
-  const arrayRes = data.clues.filter(item => item.value = 1000)
-  const twoA = document.getElementById("test")
-  const random = Math.floor(Math.random() * arrayRes.length)
+  arrayRes = data.clues.filter(item => item.value = 1000)
+ let test = document.getElementById("test")
+  random = Math.floor(Math.random() * arrayRes.length)
   console.log(random, arrayRes[random])
-  twoA.textContent= arrayRes[random].question
+  test.textContent= arrayRes[random].question
   document.getElementById("staticBackdropLabel").textContent= 1000
   thousandF.style.display = 'none'
 })
